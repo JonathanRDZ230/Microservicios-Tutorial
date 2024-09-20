@@ -1,6 +1,8 @@
 spring:
   application:
     name: carro-service
+  config:
+    import: "configserver:"
   cloud:
     config:
       enable: true

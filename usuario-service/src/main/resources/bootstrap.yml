@@ -1,7 +1,8 @@
 spring:
   application:
-    name: moto-service
+    name: usuario-service
+  config:
+    import: "configserver:"
   cloud:
     config:
-      enable: true
       uri: http://localhost:8081
