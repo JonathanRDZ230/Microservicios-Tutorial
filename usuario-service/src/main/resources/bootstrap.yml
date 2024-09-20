@@ -2,7 +2,5 @@ spring:
   application:
     name: usuario-service
   config:
-    import: "configserver:"
-  cloud:
-    config:
-      uri: http://localhost:8081
+    import:
+      configserver: http://localhost:8081
